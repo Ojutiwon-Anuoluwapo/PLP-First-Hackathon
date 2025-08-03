@@ -12,14 +12,14 @@ I’m **Ojutiwon Anuoluwapo**, a creative and resourceful web developer based in
 
 ## ✨ Features
 
-1 **Responsive two-column layout** with a fixed sidebar navigation and main content area.
-2 **Tab-like sections and accordion cards** for about, skills, interests, projects, and contact.
-3 **Accessible HTML with ARIA labels** for better usability.
-4 **Visual enhancements** using CSS animations, transitions, and hover effects.
-5 **Vanilla HTML and CSS** — no frameworks or JS libraries used.
-6 **External background image** with overlay on content.
-7 Profile and project images integrated to highlight personal branding and projects.
-8 Horizontal scrolling carousel for project cards on wider screens.
+**Responsive two-column layout** with a fixed sidebar navigation and main content area.
+**Tab-like sections and accordion cards** for about, skills, interests, projects, and contact.
+**Accessible HTML with ARIA labels** for better usability.
+**Visual enhancements** using CSS animations, transitions, and hover effects.
+**Vanilla HTML and CSS** — no frameworks or JS libraries used.
+**External background image** with overlay on content.
+Profile and project images integrated to highlight personal branding and projects.
+Horizontal scrolling carousel for project cards on wider screens.
 
 ---
 
