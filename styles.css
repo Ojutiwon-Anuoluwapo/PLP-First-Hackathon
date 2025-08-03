@@ -1,0 +1,197 @@
+
+body {
+  background: url('images/hackathonimage.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #010102;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: nowrap
+}
+
+aside {
+  background-color: rgba(184, 8, 46, 0.98);
+  color: #fff;
+  flex-shrink: 0;
+  width: 260px;
+  min-height: 100vh;
+  padding: 34px 22px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar-img {
+  border-radius: 800%;
+  width: 280px;
+  height: 250px;
+  margin-bottom: 18px;
+}
+
+/* Add to styles.css for hero section styling */
+.hero-name {
+  font-size: 2.8em;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+  color: #233554;
+}
+
+.hero-title {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 1em;
+  color: #05f1aa;
+}
+
+aside h1 {
+  font-size: 1.6em;
+  margin-bottom: 25px;
+}
+
+nav {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+nav a {
+  color: #0f0a01;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.22s;
+}
+
+nav a:hover {
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.sidebar-social {
+  margin-top: auto;
+  font-size: 0.97em;
+}
+
+.sidebar-social a { color: #0b7a1d; text-decoration: underline; margin: 0 6px; }
+
+main {
+  flex: 1;
+  padding: 60px 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 1.18em; /* adjust the value as needed */
+  color: hwb(0 100% 0%); /* i will be changing this to my preferred font color */
+}
+
+.split-hero {
+  display: flex;
+  gap: 36px;
+  margin-bottom: 42px;
+}
+.split-left, .split-right { flex: 1; }
+.quick-facts { list-style: none; padding: 0; font-size: 1.08em;}
+.quick-facts li { margin-bottom: 8px; }
+
+.card-grid {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: #2ee07e;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(4, 7, 12, 0.07);
+  padding: 28px 22px;
+  flex: 1;
+  font-size: 1.10em; /* adjust the value as needed */
+  color: hwb(0 0% 99%); /* i will be changing this to my preferred font color */
+}
+.card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 28px rgba(35,53,84,0.16);
+}
+
+.card h3 { margin-top: 0; color: #233554; }
+
+#projects h2 { margin-top: 20px; }
+.project-scroll {
+  display: flex;
+  gap: 26px;
+  overflow-x: auto;
+  padding-bottom: 15px;
+}
+
+.project-card {
+  background: #05f1aa;
+  border-radius: 12px;
+  min-width: 295px;
+  box-shadow: 0 2px 16px rgba(35,53,84,.06);
+  padding: 18px 12px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  font-size: 1.10em; /* adjust the size if needed */
+  color: hwb(0 0% 96%); /* i will be changing this to my preferred font color */
+}
+.project-card:hover { transform: scale(1.04); box-shadow: 0 8px 28px rgba(35,53,84,.16);}
+.project-card img { border-radius:8px; width:90%; max-width:210px; margin-bottom: 8px;}
+.project-card h4 { margin: 12px 0 7px 0; font-size: 1.18em;}
+.project-card a { color:#8a6d46; font-weight:600; text-decoration:none;}
+.project-card a:hover { color:#020307; }
+
+form {
+  background: #c7c1c5;
+  padding: 26px 28px; border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(35,53,84,0.06);
+  max-width: 400px;
+  font-size: 1.10em; /* adjust the size as needed */
+  color: hwb(0 0% 96%);
+}
+label { font-weight:500; margin-top: 8px; display:block;}
+input, textarea { width: 100%; margin:4px 0 14px 0; padding: 9px; border-radius: 3px; border:1px solid #bcc2ce;}
+button { background: #8a6d46; color:#fff; border:none; padding:10px 22px; border-radius:6px; cursor:pointer; font-weight:600;}
+
+@media (max-width: 950px) {
+  .card-grid { flex-direction: column;}
+  .split-hero { flex-direction: column;}
+}
+
+@media (max-width:670px) {
+  .container { flex-direction: column;}
+  aside { width:100vw; min-height:unset; flex-direction:row; justify-content:space-between; }
+  aside > * {margin-bottom:0;}
+  main { padding: 22px 7px;}
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-30px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+
+h2 {
+  animation: fadeInDown 1s ease;
+}
+
+details.card {
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  margin-bottom: 12px;
+}
+
+details.card[open] {
+  box-shadow: 0 8px 28px rgba(35,53,84,0.16);
+}
+
+details.card summary {
+  outline: none;
+}
+
+details.card h3 {
+  display: inline;
+  margin: 0;
+}

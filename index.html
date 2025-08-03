@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ojutiwon Anuoluwapo | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body> 
+  <div class="container">
+    <!-- Vertical Sidebar Navigation -->
+    <aside>
+      <img src="images/woman-7517082_1280.jpg" alt="Portrait of Ojutiwon Anuoluwapo" class="sidebar-img" />
+      <h1>Ojutiwon Anuoluwapo</h1>
+      <h2 class="sidebar-title">Creative Web Developer</h2>
+      <nav>
+        <a href="#about" aria-label="Go to About section">About</a>
+        <a href="#skills" aria-label="Go to Skills section">Skills</a>
+        <a href="#projects" aria-label="Go to Projects section">Projects</a>
+        <a href="#contact" aria-label="Go to About section">Contact</a>
+      </nav>
+      <div class="sidebar-social">
+        <p>&copy; 2025 Ojutiwon Anuoluwapo. All rights reserved.</p>
+        <p>
+          Follow me on 
+          <a href="https://facebook.com/anuoluwapo ojutiwon" target="_blank" rel="noopener" aria-label="Facebook profile link">Facebook</a> | 
+          <a href="https://linkedin.com/in/anuoluwapo-ojutiwon" target="_blank" rel="noopener" aria-label="LinkedIn profile link">LinkedIn</a>
+        </p>
+      </div>
+    </aside>
+
+
+    <!-- Main Content Area -->
+    <main>
+      <!-- Split Section Hero -->
+      <section id="hero" class="split-hero">
+        <div class="split-left">
+          <h2>Hello!</h2>
+          <p>
+            I’m <strong>Ojutiwon Anuoluwapo</strong>, a creative and resourceful web developer. 
+          </p>
+        </div>
+        <div class="split-right">
+          <ul class="quick-facts">
+            <li><strong>Location:</strong> Lagos, Nigeria</li>
+            <li><strong>Background:</strong> BSc. Political Science & Education</li>
+            <li><strong>Focus:</strong> Web development, AI, & Design</li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- Feature Cards for About, Skills, Interests -->
+      <section class="card-grid" id="about">
+        <details class="card">
+          <summary><h3>About</h3></summary>
+          <p>I thrive on solving problems and collaborating to build impactful tools. I specialize in building interactive and visually engaging digital experiences that bridge ideas and technology. Driven by an endless curiosity and an eye for detail, I enjoy transforming complex problems into elegant, user-friendly solutions.<br><br>
+    Whether I’m collaborating with a dynamic team or digging into a new technology on my own, I strive for innovation in every project. I’m passionate about lifelong learning, positive impact, and making the web better place for everyone. 
+          </p>
+        </details>
+        <details class="card" id="skills">
+          <summary><h3>Skills</h3></summary>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML &amp; CSS</li>
+          </ul>
+        </details>
+        <details class="card" id="interests">
+          <summary><h3>Interests</h3></summary>
+          <ul>
+            <li>Tech Innovations</li>
+            <li>Open Source</li>
+            <li>Digital Art & AI</li>
+            <li>Web Development & Modern Technology</li>
+            <li>Tech Innovations and Startups</li>
+            <li>Open Source Contribution</li>
+            <li>Continuous Learning</li>
+            <li>Creative Problem Solving</li>
+            <li>Collaboration & Teamwork</li>
+            <li>Exploring New Technologies</li>
+            <li>Digital Art & Design</li>
+            <!-- ...other interests... -->
+          </ul>
+        </details>
+      </section>
+
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-scroll">
+          <div class="project-card">
+            <img src="images/programming-1873854_640.webp" alt="Screenshot of Project One" />
+            <h4><a href="https://github.com/Ojutiwon-Anuoluwapo/week-one-web-dev-assignment" target="_blank">Project One</a></h4>
+            <p>A standards-compliant web page built with accessibility and clarity in mind. The project demonstrates both machine and human-friendly design—hallmarks of robust web development.</p>
+          </div>
+          <div class="project-card">
+            <img src="images/code-1076536_640.jpg" alt="Screenshot of Project Two" />
+            <h4><a href="https://github.com/Ojutiwon-Anuoluwapo/SEE_PLP/blob/main/calculator.py" target="_blank">Project Two</a></h4>
+            <p>My first hands-on coding project—a basic calculator script written in Python. This project sparked my interest in programming logic and reinforced my drive for continuous self-improvement.</p>
+          </div>
+          <!-- ...other project cards... -->
+        </div>
+      </section>
+
+
+      <!-- Contact section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:anuoluwapoojutiwon@gmail.com" method="POST" enctype="text/plain"><label for="name">Name:</label>
+          <input type="text" id="name" name="name" required aria-label="Your Name" /><label for="email">Email:</label>
+          <input type="email" id="email" name="email" required aria-label="Your Email Address" />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required aria-label="Your Message"></textarea>
+          <button type="submit" aria-label="Send Message">Send</button>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
