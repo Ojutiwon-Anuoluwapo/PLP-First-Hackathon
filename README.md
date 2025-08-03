@@ -1,50 +1,85 @@
-# Ojutiwon Anuoluwapo | Portfolio
+# Ojutiwon Anuoluwapo – Personal Portfolio
 
-Welcome to my personal portfolio website! This project showcases my skills, interests, and projects as a creative web developer.
+Welcome to my personal portfolio website! This project showcases my skills, education, interests, and featured projects through a clean, modern, and responsive layout built entirely with vanilla HTML and CSS.
 
-## Table of Contents
-- [About Me](#about-me)
-- [Features](#features)
-- [Skills](#skills)
-- [Projects](#projects)
-- [Interests](#interests)
-- [Development Process](#development-process)
-- [Deployment](#deployment)
-- [Contact](#contact)
-- [License](#license)
+---
 
-## About Me
-I’m Ojutiwon Anuoluwapo, a creative and resourceful web developer based in Lagos, Nigeria. I specialize in building interactive and visually engaging digital experiences that bridge ideas and technology. I thrive on solving problems, collaborating, and continuous learning.
+## 👤 About Me
 
-## Features
-- Vertical sidebar navigation
-- Split hero section for introduction
-- Card-based layout for About, Skills, and Interests
-- Responsive design for all devices
-- Project showcase with images and links
-- Contact form for direct communication
+I’m **Ojutiwon Anuoluwapo**, a creative and resourceful web developer based in Lagos, Nigeria. I specialize in creating interactive, user-friendly digital experiences that blend technical skill with thoughtful design. Driven by curiosity and continuous learning, I thrive on transforming complex problems into elegant solutions.
 
-## Skills
-- Python
-- JavaScript
-- HTML & CSS
+---
 
-## Projects
-- **Project One:** [Week One Web Dev Assignment](https://github.com/Ojutiwon-Anuoluwapo/week-one-web-dev-assignment)  
-  A standards-compliant web page built with accessibility and clarity in mind.
+## ✨ Features
 
-- **Project Two:** [Calculator Script](https://github.com/Ojutiwon-Anuoluwapo/SEE_PLP/blob/main/calculator.py)  
-  A basic calculator script written in Python.
+1 **Responsive two-column layout** with a fixed sidebar navigation and main content area.
+2 **Tab-like sections and accordion cards** for about, skills, interests, projects, and contact.
+3 **Accessible HTML with ARIA labels** for better usability.
+4 **Visual enhancements** using CSS animations, transitions, and hover effects.
+5 **Vanilla HTML and CSS** — no frameworks or JS libraries used.
+6 **External background image** with overlay on content.
+7 Profile and project images integrated to highlight personal branding and projects.
+8 Horizontal scrolling carousel for project cards on wider screens.
 
-## Interests
-- Tech Innovations
-- Open Source
-- Digital Art & AI
-- Web Development & Modern Technology
-- Startups
-- Continuous Learning
-- Creative Problem Solving
-- Collaboration & Teamwork
+---
+
+## 🛠️ Built With
+
+- **HTML5** – semantic structure and accessibility
+- **CSS3** – responsive design, layout with flexbox, animations, and transitions
+- No JavaScript or frameworks — fully hand-coded vanilla frontend
+
+---
+
+## 💻 Getting Started
+
+STEP 1
+### Clone the repository:
+
+STEP 2
+### Open in your browser:
+
+- Open the `index.html` file in your browser to view your portfolio locally.
+
+---
+
+## ⚙️ Customization
+
+- Replace the images in the `images/` folder with your own profile picture and project screenshots.
+- Update links in navigation, projects, and social media to your own URLs.
+- Modify colors and fonts in `styles.css` to reflect your personal branding.
+- Adjust the background image URL in CSS (`body { background: url(...) }`) as desired.
+
+---
+
+## 🌐 Deployment
+
+You can easily deploy this portfolio via **GitHub Pages** for free:
+
+1. Push your project to a GitHub repository.
+2. Go to **Settings > Pages**.
+3. Select the branch (`main` or `master`) and folder (`root`).
+4. Your portfolio will be live at:  
+   `https://your-github-username.github.io/your-repo-name/`
+
+---
+
+## 📞 Contact Me
+
+Feel free to reach out via the contact form on the site or connect with me on:
+
+- [LinkedIn](https://linkedin.com/in/anuoluwapo-ojutiwon)
+- [Facebook](https://facebook.com/anuoluwapo.ojutiwon) 
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
+
+---
+
+> _Thank you for visiting my portfolio!_
 
 ## Development Process
 - Project planning and goal setting
@@ -55,11 +90,5 @@ I’m Ojutiwon Anuoluwapo, a creative and resourceful web developer based in Lag
 - Deployment to GitHub Pages/Netlify/Vercel
 - Continuous improvement and learning
 
-## Deployment
-This portfolio is hosted on [GitHub Pages](https://your-github-pages-link) *(replace with your actual link)*.
 
-## Contact
-Feel free to reach out via the contact form on the site or email me at: anuoluwapoojutiwon@gmail.com
 
-## License
-This project is open source and available under the [MIT License](LICENSE).# PLP-First-Hackathon
