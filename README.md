@@ -35,7 +35,7 @@ I’m **Ojutiwon Anuoluwapo**, a creative and resourceful web developer based in
 
 STEP 1
 ### Clone the repository:
-
+https://github.com/Ojutiwon-Anuoluwapo/PLP-First-Hackathon.git
 STEP 2
 ### Open in your browser:
 
